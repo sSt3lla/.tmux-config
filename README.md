@@ -1,7 +1,8 @@
 .tmux
 =====
 
-Self-contained, pretty and versatile `.tmux.conf` configuration file.
+Self-contained, pretty and versatile `.tmux.conf` configuration file. \
+(slightly modified from https://github.com/gpakosz/.tmux)
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif)
 
@@ -19,20 +20,10 @@ To install, run the following from your terminal: (you may want to backup your
 existing `~/.tmux.conf` first)
 
 ```
-$ cd
-$ git clone https://github.com/gpakosz/.tmux.git
-$ ln -s -f .tmux/.tmux.conf
-$ cp .tmux/.tmux.conf.local .
-```
-
-💡 You can clone the repository anywhere you want, provided you create the
-proper `~/.tmux.conf` symlink and you copy the `.tmux.conf.local` sample file in
-your home directory:
-
-```
-$ git clone https://github.com/gpakosz/.tmux.git /path/to/oh-my-tmux
-$ ln -s -f /path/to/oh-my-tmux/.tmux.conf ~/.tmux.conf
-$ cp /path/to/oh-my-tmux/.tmux.conf.local ~/.tmux.conf.local
+cd
+git clone https://github.com/sSt3lla/.tmux-config
+ln -s -f .tmux/.tmux.conf
+cp .tmux/.tmux.conf.local .
 ```
 
 Then proceed to [customize] your `~/.tmux.conf.local` copy.
